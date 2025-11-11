@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+.main{
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.main_todo_div{
+    width: 26rem;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    align-items: center;
+    height: auto;
+    /* padding: 20px; */
+    margin: 10px;
+    list-style: none;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+
+}
