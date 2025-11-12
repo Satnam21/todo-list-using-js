@@ -5,14 +5,19 @@
 }
 
 body{
-    background-color: lightgreen;
+    background-color: lightgray;
 }
 
 .main{
-    width: 500px;
+    width: 550px;
     margin: 20px auto;
     text-align: center;
 }
+
+h1{
+    margin: 20px 0px;
+}
+
 
 .main_todo_div{
     width: 26rem;
@@ -20,10 +25,38 @@ body{
     grid-template-columns: 1fr 0.3fr;
     align-items: center;
     height: auto;
-    /* padding: 20px; */
     margin: 10px;
-    list-style: none;
-    /* border: 1px solid black; */
-    /* padding: 5px; */
+    list-style: none;   
+}
 
+input{
+    padding: 8px;
+}
+
+.btn{
+    padding: 8px; 
+    border-radius: 4px; 
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background-color: lightgreen;
+}
+
+.todo-lists-elem{
+    margin-top: 20px;
+}
+
+.deleteBtn{
+    padding: 8px;
+     border-radius: 4px;
+     cursor: pointer; 
+     background-color: red;
+     color: #fff;
+     font-size: 10px;
+}
+
+.deleteBtn:hover{
+    background-color: rgb(188, 18, 18);
 }
